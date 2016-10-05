@@ -39,7 +39,7 @@ public abstract class BaseActivity extends Activity{
 		map.setMapStatus(m);
 		MapStatusUpdate m1=MapStatusUpdateFactory.zoomTo(10);
 		map.setMapStatus(m1);
-		
+		System.out.println("haha");
 		Log.i(TAG, "MaxZoomLevel:"+map.getMaxZoomLevel()+",MinZoomLevel:"+map.getMinZoomLevel());
 //		mMapView.showScaleControl(true);
 //		mMapView.showZoomControls(true);
